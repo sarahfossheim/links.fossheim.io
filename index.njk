@@ -4,11 +4,19 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+<h1>Find me at:</h1>
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<h2>Websites</h2>
+<ul>
+  {% for link in collections.links %}
+    <li><a href="{{ link.data.url }}">{{ link.data.label }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Socials</h2>
+<ul>
+  {% for social in collections.socials %}
+    <li><a href="{{ social.data.url }}">{{ social.data.label }}</a></li>
+  {% endfor %}
+</ul>

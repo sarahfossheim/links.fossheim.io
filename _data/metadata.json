@@ -1,21 +1,11 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "🔗 Fossheim Links",
+  "url": "https://links.fossheim.io/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
-  "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://example.com/"
-  },
-  "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
-  },
+  "description": "Where to find Sarah L. Fossheim and their work.",
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Sarah L. Fossheim",
+    "email": "collab@fossheim.io",
+    "url": "https://fossheim.io/"
   }
 }
