@@ -1,6 +1,5 @@
 ---
-label: CodePen
-username: "@fossheim"
+label: CSS Drawings
 url: https://codepen.io/fossheim
 tags: link
 ---

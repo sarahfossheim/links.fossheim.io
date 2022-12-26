@@ -5,22 +5,25 @@ eleventyNavigation:
   order: 1
 ---
 
+{# TODO: 
+  - Split links up in components (too much repeated code)
+  - Clean up code
+  - Add more info
+#}
 <h1>Find me at:</h1>
 
-<h2>Websites</h2>
-<ul class="links">
-  {% for link in collections.links %}
-    <li class="card">
-      <a href="{{ link.data.url }}">
-        {{ link.data.label }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
 
-<h2>Socials</h2>
-<ul>
-  {% for social in collections.socials %}
-    <li><a href="{{ social.data.url }}">{{ social.data.label }}</a></li>
-  {% endfor %}
-</ul>
+{% for type in collections.linksByType %}
+  <h2>{{ type.title }}</h2>
+  <p>{{ type.description }}</p>
+
+  <ul class="links">
+    {% for link in type.links %}
+      <li class="card">
+        <a href="{{ link.data.url }}">
+          {{ link.data.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

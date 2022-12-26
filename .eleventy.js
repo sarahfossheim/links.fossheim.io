@@ -60,6 +60,27 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  /* 
+   * MASSIVE TODO LIST:
+   *  - Clean up names
+   *  - Add documentation
+   *  - Move to utils
+   *  - Clean up code
+   */
+  eleventyConfig.addCollection("linksByType", function(collectionApi) {
+    const allMetaInfo = collectionApi.getFilteredByTag('meta');
+    const metaInfoProcessed = allMetaInfo.map((document) => {
+      const otherTags = document.data.tags.find(tag => tag !== 'meta');
+      return {
+        title: document.data.title,
+        description: document.data.description,
+        links: collectionApi.getFilteredByTags(otherTags, 'link'),
+      };
+    });
+  
+    return metaInfoProcessed;
+  });
+
   // Override Browsersync defaults (used only with --serve)
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
