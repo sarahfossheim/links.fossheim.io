@@ -19,7 +19,16 @@ eleventyNavigation:
 
   <ul class="links">
     {% for link in type.links %}
-      <li class="card">
+      <li 
+        class="card"
+        style="
+          {% if link.data.theme %}
+            {{ link.data.theme | log}}
+            --card-background: {{ link.data.theme.primary }};
+            --card-background-shadow: {{ link.data.theme.shadow }};
+          {% endif %}
+        "
+      >
         <a href="{{ link.data.url }}">
           {{ link.data.label }}
         </a>

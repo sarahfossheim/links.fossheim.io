@@ -1,5 +1,9 @@
 {
   "tags": [
     "links"
-  ]
+  ],
+  "theme": {
+    "primary": "aqua",
+    "shadow": "teal"
+  }
 }

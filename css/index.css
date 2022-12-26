@@ -43,7 +43,7 @@ a {
   
   width: 100%;
   
-  background-color: var(--color-accent-2-lighter);
+  background-color: var(--card-background);
 
   text-decoration: none;
 
@@ -55,7 +55,7 @@ a {
     2px 2px 0 0 var(--outline),
     3px 3px 0 0 var(--outline),
     4px 4px 0 0 var(--outline),
-    0 0 0 0 var(--color-accent-2-lighter) inset;
+    0 0 0 0 var(--card-background) inset;
 
   position: relative;
   top: 0;
@@ -73,9 +73,9 @@ a {
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
-    0 1.5px 0 0 var(--color-accent-2-lighter) inset;
+    0 1.5px 0 0 var(--card-background) inset;
 
-  background-color: var(--color-accent-2);
+  background-color: var(--card-background-shadow);
 
   top: 4px;
   left: 4px;
@@ -90,7 +90,7 @@ a {
     0 0 0 0 var(--outline),
     0 0 0 2px var(--color-background-primary),
     0 0 0 4px var(--outline),
-    0 1.5px 0 0 var(--color-accent-2-lighter) inset;
+    0 1.5px 0 0 var(--card-background) inset;
   top: 0;
   left: 0;
 }
@@ -101,7 +101,7 @@ a {
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
-    0 1.5px 0 0 var(--color-accent-2-lighter) inset,
-    0 0 0 2px var(--color-accent-2-lightest),
-    0 0 0 4px var(--color-accent-2);
+    0 1.5px 0 0 var(--card-background) inset,
+    0 0 0 2px var(--color-background-primary),
+    0 0 0 4px var(--card-background-shadow);
 }
