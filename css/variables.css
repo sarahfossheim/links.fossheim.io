@@ -1,0 +1,57 @@
+:root {
+  --font-primary: 'Roboto', Helvetica, sans-serif;
+  --font-headlines: 'RecoletaSemiBold', 'Roboto', Helvetica, sans-serif;
+  --font-headlines-bold: 'RecoletaBlack', 'Roboto', Helvetica, sans-serif;
+  --font-headlines-medium: 'RecoletaMedium', 'Roboto', Helvetica, sans-serif;
+
+  --color-background-lightest: #fff;
+  --color-background-primary: #fbf4e9;
+  --color-background-primary-darker: #DECCB1;
+  --color-background-primary-darkest: #927A54;
+
+  --color-text-lightest: #384e5a;
+  --color-text-lighter: #2D424D;
+  --color-text-primary: #14252E;
+  --color-text-darker: #05110c;
+
+  --color-gray-1-lighter: #D0CFD7;
+  --color-gray-1: #9694A3;
+  
+  --color-accent-1-lightest: #EBDCF8;
+  --color-accent-1-lighter: #E6CCF5;
+  --color-accent-1: #CBA5E9;
+  --color-accent-1-darker: #BD8CE3;
+  --color-accent-1-darkest: #986BBB;
+  --color-accent-1-outlines: #7641A0;
+  --color-accent-1-text: #4b2f61;
+
+  --color-accent-2-shadow: #FFF7C2;
+  --color-accent-2-lightest: #FFF4B0;
+  --color-accent-2-lighter: #efdd6c;
+  --color-accent-2: #DFC935;
+  --color-accent-2-darker: #AE9A17;
+  --color-accent-2-darkest: #8A7909;
+
+  --rainbow-red: #F4564B;
+  --rainbow-orange: #ED854A;
+  --rainbow-yellow: #E0D830;
+  --rainbow-green: #53B25D;
+  --rainbow-blue: #4086F0;
+  --rainbow-purple: #8C47E3;
+  --rainbow-pink: #EC66DF;
+
+  --color-selection-text: var(--color-text-darker);
+  --color-selection-background: var(--color-accent-3-lighter);
+
+  --animation-delay: 500ms;
+
+  --size-text-default: 1.312rem;
+  --size-text-small: 1rem;
+  --size-text-medium: 1.75rem;
+  --size-text-large: 2.5rem;
+  --size-text-xlarge: 3.33rem;
+  --size-text-xxlarge: 4.20rem;
+  --size-text-huge: 6rem;
+
+  --card-radius: 1rem;
+}

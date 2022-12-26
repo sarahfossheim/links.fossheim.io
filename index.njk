@@ -8,9 +8,13 @@ eleventyNavigation:
 <h1>Find me at:</h1>
 
 <h2>Websites</h2>
-<ul>
+<ul class="links">
   {% for link in collections.links %}
-    <li><a href="{{ link.data.url }}">{{ link.data.label }}</a></li>
+    <li class="card">
+      <a href="{{ link.data.url }}">
+        {{ link.data.label }}
+      </a>
+    </li>
   {% endfor %}
 </ul>
 

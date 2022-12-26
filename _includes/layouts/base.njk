@@ -6,10 +6,11 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 
-    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
     <meta name="generator" content="{{ eleventy.generator }}">
 
+    <link rel="stylesheet" href="{{ '/css/variables.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+
   </head>
   <body>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
