@@ -8,11 +8,12 @@ body {
   background-color: var(--color-background-primary);
   color: var(--color-text-primary);
   font-size: var(--size-text-default);
-  font-family: 'Avenir Medium', 'Avenir', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
 a {
   color: inherit;
+  font-weight: 500;
 }
 
 .links {
@@ -39,6 +40,8 @@ a {
   
   background-color: var(--color-accent-1-lighter);
 
+  text-decoration: none;
+
   padding: 1rem;
   border-radius: var(--card-radius);
   border: 2px solid var(--outline);
@@ -47,5 +50,39 @@ a {
     2px 2px 0 0 var(--outline),
     3px 3px 0 0 var(--outline),
     4px 4px 0 0 var(--outline);
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  transition: box-shadow var(--animation-length), 
+    top var(--animation-length),
+    left var(--animation-length),
+    background-color var(--animation-length-slower);
 }
 
+.card a:is(:focus, :hover) {
+  --outline: var(--color-text-lightest);
+  box-shadow: 0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 1.5px 0 0 var(--color-accent-1-lighter) inset;
+
+  background-color: var(--color-accent-1);
+
+  top: 4px;
+  left: 4px;
+}
+
+.card a:focus {
+  outline: none;
+  --outline: var(--color-text-lightest);
+  box-shadow: 0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 0 0 0 var(--outline),
+    0 0 0 2px var(--color-background-primary),
+    0 0 0 4px var(--outline),
+    0 1.5px 0 0 var(--color-accent-1-lighter) inset;
+}

@@ -43,7 +43,8 @@
   --color-selection-text: var(--color-text-darker);
   --color-selection-background: var(--color-accent-3-lighter);
 
-  --animation-delay: 500ms;
+  --animation-length: 420ms;
+  --animation-length-slower: 666ms;
 
   --size-text-default: 1.312rem;
   --size-text-small: 1rem;
