@@ -50,8 +50,7 @@ main {
     2px 2px 0 0 var(--outline),
     3px 3px 0 0 var(--outline),
     4px 4px 0 0 var(--outline),
-    0 0 0 0 var(--color-accent-2-lighter) inset,
-    0 0 0 0 var(--color-background-primary-shadow);
+    0 0 0 0 var(--color-accent-2-lighter) inset;
 
   position: relative;
   top: 0;
@@ -69,8 +68,7 @@ main {
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
     0 0 0 0 var(--outline),
-    0 1.5px 0 0 var(--color-accent-2-lighter) inset,
-    0 0 4px 3px var(--color-background-primary-shadow);
+    0 1.5px 0 0 var(--color-accent-2-lighter) inset;
 
   background-color: var(--color-accent-2);
 
@@ -87,8 +85,7 @@ main {
     0 0 0 0 var(--outline),
     0 0 0 2px var(--color-background-primary),
     0 0 0 4px var(--outline),
-    0 1.5px 0 0 var(--color-accent-2-lighter) inset,
-    0 0 4px 3px var(--color-background-primary-shadow);
+    0 1.5px 0 0 var(--color-accent-2-lighter) inset;
   top: 0;
   left: 0;
 }
