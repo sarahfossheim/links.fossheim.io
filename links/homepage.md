@@ -1,5 +1,7 @@
 ---
 label: Homepage
 url: https://fossheim.io/
-tags: link
+tags: 
+  - link
+  - highlighted
 ---
