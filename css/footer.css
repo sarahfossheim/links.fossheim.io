@@ -1,0 +1,9 @@
+footer {
+  background: var(--color-background-lightest);
+  padding: 1rem;
+  border-top: 2px solid var(--color-text-lighter);
+}
+
+footer .credits {
+  text-align: center;
+}

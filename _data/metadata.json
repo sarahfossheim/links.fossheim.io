@@ -6,6 +6,15 @@
   "author": {
     "name": "Sarah L. Fossheim",
     "email": "collab@fossheim.io",
-    "url": "https://fossheim.io/"
+    "url": "https://fossheim.io/",
+    "img": {
+      "alt": "Sarah working, looking deeply focused at their laptop. They have long medium-brown hair, metal rectangular framed glasses, and are wearing a black top.",
+      "url": "sarah.png"
+    },
+    "about": "I'm an experienced independent developer, designer and educator. I specialize in building accessible and inclusive products, and have a particular focus on dataviz accessibility."
+  },
+  "technology": {
+    "name": "Eleventy",
+    "url": "https://www.11ty.dev"
   }
 }

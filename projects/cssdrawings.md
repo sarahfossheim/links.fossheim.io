@@ -1,7 +1,9 @@
 ---
 label: CSS Drawings
 url: https://codepen.io/fossheim
-tags: link
+tags:
+  - link
+  - highlighted
 theme:
   primary: coral
   shadow: darkred

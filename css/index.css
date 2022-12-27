@@ -11,6 +11,9 @@ body {
   font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
+::selection {
+  background-color: var(--color-accent-1);
+}
 
 main {
   width: 30rem;
@@ -104,4 +107,15 @@ a {
     0 1.5px 0 0 var(--card-background) inset,
     0 0 0 2px var(--color-background-primary),
     0 0 0 4px var(--card-background-shadow);
+}
+
+.warning {
+  background-color: var(--color-accent-2-lighter);
+  border: 2px solid var(--color-text-lighter);
+  width: 66.6rem;
+  max-width: 95vw;
+  margin: 2rem auto -2rem auto;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 0.85rem;
 }

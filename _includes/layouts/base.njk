@@ -10,11 +10,26 @@
 
     <link rel="stylesheet" href="{{ '/css/variables.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-
+    <link rel="stylesheet" href="{{ '/css/footer.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/header.css' | url }}">
   </head>
   <body>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+
+    <div class="warning">
+      <p>
+        <strong>Note! This website is under construction.</strong>
+        This is not a finished project, but a work in progress living on a 
+        public url so I can collect feedback and share my process ☺︎ You may 
+        find bugs or unfinished features, and that's expected ☺︎
+      </p>
+    </div>
+
+    {% include "_includes/components/header.njk" %}
+
+    <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+    
+    {% include "_includes/components/footer.njk" %}
   </body>
 </html>
