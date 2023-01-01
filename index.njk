@@ -13,19 +13,7 @@ eleventyNavigation:
 <h1>Find me at:</h1>
 <ul class="links">
   {% for link in collections.highlighted %}
-    <li 
-      class="card"
-      style="
-        {% if link.data.theme %}
-          --card-background: {{ link.data.theme.primary }};
-          --card-background-shadow: {{ link.data.theme.shadow }};
-        {% endif %}
-      "
-    >
-      <a href="{{ link.data.url }}">
-        {{ link.data.label }}
-      </a>
-    </li>
+    {% include "_includes/components/linkCardBranded.njk" %}
   {% endfor %}
 </ul>
 

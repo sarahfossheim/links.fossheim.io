@@ -5,6 +5,6 @@ tags:
   - link
   - highlighted
 theme:
-  primary: coral
-  shadow: darkred
+  primary: "#FFB68C"
+  shadow: "#D87F4E"
 ---

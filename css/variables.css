@@ -56,6 +56,6 @@
   --size-text-huge: 6rem;
 
   --card-radius: 1rem;
-  --card-background: var(--color-accent-2-lighter);
-  --card-background-shadow: var(--color-accent-2);
+  --card-background: var(--color-background-lightest);
+  --card-background-shadow: var(--color-background-lightest);
 }

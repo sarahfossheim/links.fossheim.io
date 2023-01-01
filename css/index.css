@@ -28,7 +28,7 @@ a {
 }
 
 .links {
-  margin-bottom: var(--size-text-xxlarge);
+  margin: var(--size-text-default) auto var(--size-text-xxlarge) auto;
 }
 
 .card {
