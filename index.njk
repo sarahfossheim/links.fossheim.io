@@ -10,7 +10,7 @@ eleventyNavigation:
   - Clean up code
   - Add more info
 #}
-<h1>Find me at:</h1>
+<h2>Quick links</h2>
 <ul class="links">
   {% for link in collections.highlighted %}
     {% include "_includes/components/linkCardBranded.njk" %}
@@ -19,9 +19,11 @@ eleventyNavigation:
 
 
 {% for type in collections.linksByType %}
-  <h2>{{ type.title }}</h2>
-  <p>{{ type.description }}</p>
+  <section>
+    <h2>{{ type.title }}</h2>
+    <p>{{ type.description }}</p>
 
-  {% set linksArr = type.links %}
-  {% include "_includes/components/linkList.njk" %}
+    {% set linksArr = type.links %}
+    {% include "_includes/components/linkList.njk" %}
+  </section>
 {% endfor %}

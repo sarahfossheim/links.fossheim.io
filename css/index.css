@@ -27,14 +27,27 @@ a {
   font-weight: 500;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headlines);
+  font-weight: normal;
+}
+
+strong {
+  font-family: var(--font-headlines);
+}
+
 .links {
   margin: var(--size-text-default) auto var(--size-text-xxlarge) auto;
 }
 
 .card {
   list-style-type: none;
-  text-align: center;
-}
+  text-align: center;}
 
 .card + .card {
   margin-top: 1.5rem;
@@ -42,8 +55,8 @@ a {
 
 .card a {
   --outline: var(--color-text-lightest);
+
   display: block;
-  
   width: 100%;
   
   background-color: var(--card-background);
@@ -109,6 +122,28 @@ a {
     0 0 0 4px var(--card-background-shadow);
 }
 
+.card.branded a  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card.branded a > span {
+  text-align: left;
+}
+
+.card.branded a > span + span {
+  text-align: right;
+  font-size: 1rem;
+  position: relative;
+  top: 0.25rem;
+  font-family: var(--font-headlines);
+  color: var(--color-text-lighter);
+}
+
+.card.branded a:is(:hover, :focus) > span + span {
+  color: var(--color-text-primary);
+}
+
 .warning {
   background-color: var(--color-accent-2-lighter);
   border: 2px solid var(--color-text-lighter);
@@ -118,4 +153,26 @@ a {
   padding: 1rem;
   font-weight: 500;
   font-size: 0.85rem;
+}
+
+section {
+  margin-top: 6rem;
+}
+
+section :is(h2, h3, h4, h5, h6) + p {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 25rem) {
+  .card.branded a {
+    display: block;
+  }
+  
+  .card.branded a > span {
+    display: block;
+  }
+
+  .card.branded a > span + span {
+    text-align: left;
+  }
 }

@@ -3,6 +3,7 @@ footer {
   padding: 1rem;
   border-top: 2px solid var(--color-text-lighter);
   border-bottom: 2px solid var(--color-text-lighter);
+  margin-top: var(--size-text-huge);
 }
 
 footer .credits {

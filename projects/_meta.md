@@ -1,5 +1,5 @@
 ---
 tags: meta
 title: Projects
-description: This is where my personal projects are coming from
+description: I enjoy working on personal projects, and here you can find all the ones that are currently published and in progress.
 ---

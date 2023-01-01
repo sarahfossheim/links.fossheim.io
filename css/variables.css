@@ -1,8 +1,6 @@
 :root {
   --font-primary: 'Roboto', Helvetica, sans-serif;
-  --font-headlines: 'RecoletaSemiBold', 'Roboto', Helvetica, sans-serif;
-  --font-headlines-bold: 'RecoletaBlack', 'Roboto', Helvetica, sans-serif;
-  --font-headlines-medium: 'RecoletaMedium', 'Roboto', Helvetica, sans-serif;
+  --font-headlines: 'RecoletaMedium', 'Roboto', Helvetica, sans-serif;
 
   --color-background-lightest: #fff;
   --color-background-primary: #fbf4e9;

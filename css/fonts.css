@@ -1,0 +1,8 @@
+/* RecoletaMedium */
+@font-face {
+  font-family: 'RecoletaMedium';
+  font-display: swap;
+  src: url("/static/fonts/5674633/287020b6-8f06-4c6f-acae-c5e15362f0ee.woff2") format("woff2"),
+    url("/static/fonts/5674633/ee82eb04-d674-40f2-84e0-bad824e5bc24.woff") format("woff");
+}
+

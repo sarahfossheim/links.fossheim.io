@@ -1,5 +1,5 @@
 <li 
-  class="card compact"
+  class="card branded"
   style="
     {% if link.data.theme %}
       --card-background: {{ link.data.theme.primary }};
@@ -8,6 +8,7 @@
   "
 >
   <a href="{{ link.data.url }}">
-    {{ link.data.label }}
+    <span>{{ link.data.label }}</span>
+    <span>{{ link.data.username or link.data.url }}</span>
   </a>
 </li>

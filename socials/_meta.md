@@ -1,5 +1,5 @@
 ---
 tags: meta
 title: Socials
-description: Where to stay in touch
+description: "Want to stay in touch? I'm also active on the following platforms:"
 ---
