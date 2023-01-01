@@ -9,6 +9,30 @@ header {
   margin: var(--size-text-xxlarge) auto;
 
   display: flex;
+
+  background-image: linear-gradient(
+      var(--color-background-lightest),
+      var(--color-background-lightest)
+    ),
+    linear-gradient(
+      30deg,
+      var(--rainbow-red),
+      var(--rainbow-orange),
+      var(--rainbow-yellow),
+      var(--rainbow-green),
+      var(--rainbow-blue),
+      var(--rainbow-purple),
+      var(--rainbow-pink)
+    );
+
+  background-size: 100% 100%, 
+    100% 100%;
+  background-size: calc(100% - 0.5rem) calc(100% - 0.5rem), 
+    100% 100%;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
 }
 
 header img {

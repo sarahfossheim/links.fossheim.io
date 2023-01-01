@@ -11,29 +11,6 @@ body {
   font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
-body:before {
-  content: "";
-  display: block;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0.25rem;
-
-  background: linear-gradient(
-    30deg,
-    var(--rainbow-red),
-    var(--rainbow-orange),
-    var(--rainbow-yellow),
-    var(--rainbow-green),
-    var(--rainbow-blue),
-    var(--rainbow-purple),
-    var(--rainbow-pink)
-  );
-  border-bottom: 2px solid var(--color-text-lightest);
-}
-
 ::selection {
   background-color: var(--color-accent-1);
 }
