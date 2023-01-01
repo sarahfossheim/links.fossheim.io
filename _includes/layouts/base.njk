@@ -6,6 +6,18 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 
+    <meta property="og:title" content="{{  title or metadata.title }}">
+    <meta property="og:url" content="https://links.fossheim.io/">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://links.fossheim.io/">
+    <meta name="twitter:title" content="{{ title or metadata.title }}">
+    <meta name="twitter:description" content="{{ description or metadata.description }}">
+
+    <link rel="canonical" href="https://links.fossheim.io/"> 
+
+
     <meta name="generator" content="{{ eleventy.generator }}">
 
     <link rel="stylesheet" href="{{ '/css/fonts.css' | url }}">
