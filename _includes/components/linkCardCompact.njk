@@ -1,7 +1,12 @@
 <li 
   class="card compact"
 >
-  <a href="{{ link.data.url }}">
+  <a 
+    href="{{ link.data.url }}"
+    {% if link.data.rel %}
+      rel="me"
+    {% endif %}
+  >
     {{ link.data.label }}
   </a>
 </li>

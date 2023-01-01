@@ -8,4 +8,5 @@ theme:
 tags:
   - link
   - highlighted
+rel: "me"
 ---
