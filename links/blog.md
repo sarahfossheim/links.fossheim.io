@@ -5,7 +5,7 @@ tags:
   - link
   - highlighted
 theme:
-  primary: "#A2D7E7"
-  shadow: "#4AA2BD"
+  primary: "#FDA7FF"
+  shadow: "#FBA3FD"
 username: "fossheim.io/writing"
 ---

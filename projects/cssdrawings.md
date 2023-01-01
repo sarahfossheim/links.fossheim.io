@@ -1,11 +1,11 @@
 ---
 label: CSS Drawings
-url: https://codepen.io/fossheim
+url: https://codepen.io/collection/nwzQJq
 tags:
   - link
   - highlighted
 theme:
-  primary: "#FFB68C"
-  shadow: "#D87F4E"
+  primary: "#FFAD80"
+  shadow: "#FEAA7B"
 username: "codepen.io/fossheim"
 ---

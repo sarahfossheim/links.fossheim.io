@@ -6,6 +6,6 @@ tags:
   - link
   - highlighted
 theme:
-  primary: "#F7F28E"
-  shadow: "#C6BF3F"
+  primary: "#E5FD88"
+  shadow: "#DCF86E"
 ---

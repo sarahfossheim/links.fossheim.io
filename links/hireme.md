@@ -5,7 +5,7 @@ tags:
   - link
   - highlighted
 theme:
-  primary: lightgreen
-  shadow: green
+  primary: "#83F28E"
+  shadow: "#77ED83"
 username: "fossheim.io/work"
 ---
