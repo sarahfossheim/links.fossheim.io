@@ -54,6 +54,10 @@ header p {
   font-weight: 500;
 }
 
+header p + p {
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 50rem) {
   header {
     padding: 1.5rem;
