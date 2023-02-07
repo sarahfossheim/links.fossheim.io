@@ -1,7 +1,7 @@
 ---
 label: Mastodon
-username: "@fossheim@tech.lgbt"
-url: https://tech.lgbt/@fossheim
+username: "@fossheim@queer.garden"
+url: https://queer.garden/@fossheim
 theme:
   primary: "#78D6F1"
   shadow: "#6DD0ED"
